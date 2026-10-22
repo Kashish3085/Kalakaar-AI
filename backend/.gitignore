@@ -1,0 +1,61 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+venv/
+.venv/
+.venv2/
+
+# Build outputs
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+.ntvs
+*.njsproj
+*.sln
+*.sw?
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Python
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+.Python
+debug_auth.py
+
+# Backend generated files/folders
+uploads/
+audio_responses/
+generated_images/
+flask_session/
+instance/
+.cache/
+
+# Google Cloud credentials - IMPORTANT!
+credentials.json
+*-credentials.json
+service-account*.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
